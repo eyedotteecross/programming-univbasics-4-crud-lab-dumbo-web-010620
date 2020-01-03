@@ -1,10 +1,9 @@
 def create_an_empty_array
-  empty_array = []
-  empty_array
+  Array.new
 end
 
 def create_an_array
-  og_starters = ['charmander', 'bulbasaur', 'squirtle', 'pikachu']
+  og_starters = %W['charmander', 'bulbasaur', 'squirtle', 'pikachu'] 
 end
 
 def add_element_to_end_of_array(array, element)
