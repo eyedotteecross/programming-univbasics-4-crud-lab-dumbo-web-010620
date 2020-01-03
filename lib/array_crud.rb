@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  og_starters = %W['charmander', 'bulbasaur', 'squirtle', 'pikachu'] 
+  og_starters = %w['charmander', 'bulbasaur', 'squirtle', 'pikachu'] 
 end
 
 def add_element_to_end_of_array(array, element)
